@@ -14,3 +14,14 @@ try
 catch
 endtry
 set background=dark
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins 
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
+call plug#begin()
+
+	Plug 'tomlion/vim-solidity'
+
+call plug#end()
